@@ -1,0 +1,20 @@
+#include
+<Servo.h>
+int pos=0;
+Servo Servo1, Servo2, Servo3, Servo4,Servo5; 
+void setup() {
+Servo1.attach(13); 
+Servo2.attach(12); 
+Servo3.attach(11);
+Servo4.attach(10); 
+Servo5.attach(9);
+} 
+void loop(){
+for(pos=0;pos<=180;pos++){
+Servo1.write(pos); 
+Servo2.write(pos); 
+Servo3.write(pos); 
+Servo4.write(pos); 
+Servo5.write(pos); 
+delay(15); 
+} }
