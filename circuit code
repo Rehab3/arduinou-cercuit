@@ -1,5 +1,4 @@
-#include
-<Servo.h>
+#include <Servo.h>
 int pos=0;
 Servo Servo1, Servo2, Servo3, Servo4,Servo5; 
 void setup() {
