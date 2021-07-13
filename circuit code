@@ -10,7 +10,7 @@ Servo4.attach(10);
 Servo5.attach(9);
 } 
 void loop(){
-for(pos=0;pos<=180;pos++){
+for(pos=0;pos<=90;pos++){
 Servo1.write(pos); 
 Servo2.write(pos); 
 Servo3.write(pos); 
